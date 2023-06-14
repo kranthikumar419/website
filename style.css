@@ -1,0 +1,116 @@
+.Nat{
+    height: fit-content;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-image: url('Home.jpg');
+    transition: 15s ease-in-out;
+}
+.ln{
+    color: white;
+    margin-right: 30px;
+    color: rgb(251, 251, 6);
+    margin-left: 30px;
+}
+.txt{
+    display: flex;
+    height: 100vh;
+    font-size: 40px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    color: rgba(251, 251, 5, 0.947);
+}
+hr{
+    margin-top: 10px;
+    height: 50px;
+}
+nav{
+    display: flex;
+    float: right;
+column-gap: 20px;
+}
+@keyframes mypic{
+    0%{
+        background-image: url('Htmll.jpg');
+    }
+    25%{
+        background-image: url('CSS.jpg');
+    }
+    50%{
+        background-image: url('Js.jpg');
+    }
+    75%{
+        background-image: url('Jquery.jpg');
+    }
+    100%{
+        background-image: url('React.jpeg');
+    }
+}
+.Nat:hover{
+    color: red;
+    animation: mypic 20s ease-in-out infinite;
+}
+form{
+    text-align: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+.log{
+    background-color: rgba(0, 0, 0,70%);
+    color: white;
+    width: 300px;
+    margin: auto;
+    height: 40vh;
+    border: solid;
+    box-shadow: 2px;
+    margin-top: 15%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25%;
+}
+body{
+    background-image: url('Home.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.sin{
+    border: solid;
+    border-color: white;
+    border-radius: 15%;
+    color: white;
+    display: flex;
+    background-color: rgba(0,0,0,60%);
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 10px; */
+    width: 30%;
+    margin-left: 500px;
+    margin-top: 150px;
+}
+form{
+    margin-top: 12%;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: chartreuse;
+}
+.txt2{
+    margin-right: 175px;
+    color: rgba(251, 251, 5, 0.947);
+    text-decoration: underline;
+    font-size: xx-large;
+    /* margin-top: -50px; */
+}
+.txt1{
+    margin-top: 150px;
+    margin-left: 10px;
+}
+
+
+
